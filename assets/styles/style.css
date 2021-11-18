@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width:1920px;
+    width: 100%;
+    padding: 55px 160px;
+}
+.grid__body {
+    max-width: 1630px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas: " grid__item1 grid__item2 grid__item3"
+                         " grid__item1 grid__item4 grid__item5";
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.grid__item1 {
+    background: url("../images/header_img.jpg");
+    background-repeat: no-repeat;
+    max-width: 1054px;
+    width: 100%;
+    border-radius: 5px;
+    grid-area: grid__item1;
+}
+.grid__item1_title {
+    padding-top: 109px;
+    padding-left: 133px;
+    font-size: 42px;
+    line-height: 43.34px;
+    color: #FFFFFF;
+}
+.grid__item1_subtitle {
+    padding-top: 30px;
+    padding-left: 133px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.grid__item2 {
+    background: url("../images/header_img2.jpg");
+    background-repeat: no-repeat;
+    max-width: 242px;
+    width: 100%;
+    height: 242px;
+    border-radius: 5px;
+    grid-area: grid__item2;
+    /* ????????? */
+    display: grid;
+    align-items: flex-end;
+}
+.grid__item3 {
+    background: url("../images/header_img3.jpg");
+    background-repeat: no-repeat;
+    max-width: 242px;
+    width: 100%;
+    height: 242px;
+    border-radius: 5px;
+    grid-area: grid__item3;
+    /* ????????? */
+    display: grid;
+    align-items: flex-end;
+}
+.grid__item4 {
+    background: url("../images/header_img4.jpg");
+    background-repeat: no-repeat;
+    max-width: 242px;
+    width: 100%;
+    height: 242px;
+    border-radius: 5px;
+    grid-area: grid__item4;
+    /* ????????? */
+    display: grid;
+    align-items: flex-end;
+}
+.grid__item5 {
+    background: url("../images/header_img5.jpg");
+    background-repeat: no-repeat;
+    max-width: 242px;
+    width: 100%;
+    height: 242px;
+    border-radius: 5px;
+    grid-area: grid__item5;
+    /* ????????? */
+    display: grid;
+    align-items: flex-end;
+}
+.title {
+    background-color: #FFB804;
+    border-radius: 0px 5px 0px 0px;
+    width: 110px;
+    height: 22.08px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.description {
+    font-size: 18px;
+    line-height: 24px;
+    color: #454545;
+    padding-top: 10px;
+}
+
+
+
+
+
+
